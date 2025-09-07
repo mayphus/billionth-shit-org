@@ -1,0 +1,13 @@
+name = "billionth-shit-org"
+main = "worker/index.ts"
+compatibility_date = "2024-08-01"
+
+[assets]
+binding = "ASSETS"
+directory = "./dist"
+
+[env.production]
+routes = [
+  { pattern = "billionth-shit.org/*", zone_name = "billionth-shit.org" },
+  { pattern = "www.billionth-shit.org/*", zone_name = "billionth-shit.org" }
+]
