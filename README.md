@@ -1,5 +1,7 @@
 # billionth-shit.org
 
+> **Status:** Inactive experiment — preserved as a historical snapshot.
+
 A playful, minimal site built with Vite + React + Tailwind and shadcn-style components, served by a Cloudflare Worker with static asset hosting.
 
 ## Local dev
